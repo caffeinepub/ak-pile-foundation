@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-the-uploaded-image-file-b9880e96-bf00-4325-a5a7-c90172acf09d-16-png-to-the-frontend-as-a-static-asset-served-from-the-frontend-not-the-backend-under-a-stable-public-path-e-g-frontend-public-assets-and-update-the-founder-owner-block-frontend-src-components-site-founderownerblock-tsx-to-display-this-new-photo-for-the-founder-owner",
+      "featureTitle": "Add the uploaded image file \"B9880E96-BF00-4325-A5A7-C90172ACF09D-16.png\" to the frontend as a static asset (served from the frontend, not the backend) under a stable public path (e.g., frontend/public/assets/...), and update the Founder & Owner block (frontend/src/components/site/FounderOwnerBlock.tsx) to display this new photo for the founder/owner.",
+      "files": [
+        "frontend/src/components/site/FounderOwnerBlock.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

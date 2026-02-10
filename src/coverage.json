@@ -1,0 +1,38 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-10T08:39:49.800Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-18",
+        "summary": "Add the uploaded image file \"B9880E96-BF00-4325-A5A7-C90172ACF09D-16.png\" to the frontend as a static asset (served from the frontend, not the backend) under a stable public path (e.g., frontend/public/assets/...), and update the Founder & Owner block (frontend/src/components/site/FounderOwnerBlock.tsx) to display this new photo for the founder/owner.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/B9880E96-BF00-4325-A5A7-C90172ACF09D-16.png",
+          "frontend/src/components/site/FounderOwnerBlock.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/site/FounderOwnerBlock.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/site/FounderOwnerBlock.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

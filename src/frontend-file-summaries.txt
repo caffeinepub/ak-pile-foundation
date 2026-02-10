@@ -1,0 +1,20 @@
+{
+  "frontend/src/App.tsx": "Main application component that composes the site header, four main sections (Overview, Services, Team, Contact), and footer into a single-page layout.",
+  "frontend/src/index.css": "Global styles with construction-themed OKLCH color system using charcoal/slate grays and safety orange accents for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with construction theme colors, custom fonts, shadows, and consistent spacing/radius tokens.",
+  "frontend/src/components/site/SiteHeader.tsx": "Sticky header component with brand logo, desktop navigation, and mobile menu with smooth scrolling to page sections.",
+  "frontend/src/components/site/BrandLogo.tsx": "Brand logo component displaying the company logo image and name with tagline.",
+  "frontend/src/components/site/Section.tsx": "Reusable section wrapper component providing consistent spacing, container width, and optional muted background.",
+  "frontend/src/components/site/ServiceCard.tsx": "Service card component displaying service icon, title, and description with hover effects.",
+  "frontend/src/components/site/RoleDetailsAccordion.tsx": "Accordion component displaying detailed role information including responsibilities, tasks, and project contribution.",
+  "frontend/src/components/site/ContactForm.tsx": "Contact form with client-side validation, error handling, and success confirmation display.",
+  "frontend/src/components/site/SiteFooter.tsx": "Footer component with company info, copyright, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/sections/OverviewSection.tsx": "Hero section with company introduction, key features, and hero image showcasing construction work.",
+  "frontend/src/sections/ServicesSection.tsx": "Services section displaying three service cards for piling, breeze making, and general construction.",
+  "frontend/src/sections/TeamRolesSection.tsx": "Team section that renders the FounderOwnerBlock at the top, followed by the \"Our Team\" heading and the accordion displaying detailed information for all seven roles.",
+  "frontend/src/sections/ContactSection.tsx": "Contact section displaying company contact information (service area covering all of India, two phone numbers, Gmail email as clickable mailto link), benefits list, and contact form in a two-column responsive layout.",
+  "frontend/src/hooks/useSmoothScroll.ts": "Custom hook providing smooth scrolling functionality with header offset compensation.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for future React Query hooks to interact with backend.",
+  "frontend/src/lib/utils.ts": "Utility functions including cn() for merging Tailwind classes.",
+  "frontend/src/components/site/FounderOwnerBlock.tsx": "Reusable component displaying the founder and owner section with name \"NIZAMUDDIN KHAN\", professional photo (now using the uploaded B9880E96-BF00-4325-A5A7-C90172ACF09D-16.png), and descriptive text using construction-themed styling in a responsive card layout."
+}

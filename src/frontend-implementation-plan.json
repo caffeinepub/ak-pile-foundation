@@ -1,0 +1,29 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Use newly uploaded photo for Founder & Owner section",
+  "requirements": [
+    {
+      "id": "REQ-18",
+      "summary": "Add the uploaded founder/owner image as a frontend static asset and update the FounderOwnerBlock to display it.",
+      "acceptanceCriteria": [
+        "The file \"B9880E96-BF00-4325-A5A7-C90172ACF09D-16.png\" exists in the frontend public static assets directory and is accessible via a /assets/... URL at runtime.",
+        "frontend/src/components/site/FounderOwnerBlock.tsx uses the new /assets/... path for the <img src> so the uploaded photo is visible in the Founder & Owner block on both mobile and desktop breakpoints.",
+        "The image alt text remains accessible and in English, and continues to reference the Founder/Owner (e.g., \"Photo of the Founder and Owner, Nizamuddin Khan\").",
+        "No backend changes are introduced for serving or fetching the image."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/B9880E96-BF00-4325-A5A7-C90172ACF09D-16.png",
+          "operation": "create",
+          "description": "Add the uploaded image file as a publicly served static asset under a stable path so it is available at runtime via a /assets/... URL."
+        },
+        {
+          "path": "frontend/src/components/site/FounderOwnerBlock.tsx",
+          "operation": "modify",
+          "description": "Update the founder/owner <img> to use src=\"/assets/B9880E96-BF00-4325-A5A7-C90172ACF09D-16.png\" while preserving existing responsive sizing/styling and keeping the alt text accessible and in English referencing the Founder/Owner."
+        }
+      ]
+    }
+  ]
+}

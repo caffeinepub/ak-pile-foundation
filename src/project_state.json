@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 17,
+  "summary": "Create a company website for AK PILE FOUNDATION (construction focus: piling, breeze making, and general construction) including detailed information about staff roles (contractors, engineers, accountants, surveyors, supervisors, head worker, labourers).",
+  "architectural_notes": [],
+  "known_issues": [
+    "Build/deployment is failing due to an internal configuration error (Caffeine configuration problem), blocking updates."
+  ],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-marketing-website-for-the-construction-company-named-ak-pile-foundation-with-clear-sections-for-company-overview-services-piling-breeze-making-and-general-construction-team-roles-contractors-engineers-accountants-surveyors-supervisors-head-worker-labours-and-contact-details",
+      "title": "Create a responsive marketing website for the construction company named \"AK PILE FOUNDATION\" with clear sections for: Company overview, Services (piling, breeze making, and general construction), Team/Roles (contractors, engineers, accountants, surveyors, supervisors, head worker, labours), and Contact details.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-top-navigation-header-with-company-name-logo-that-links-to-page-sections-e-g-overview-services-team-contact-and-supports-smooth-scrolling-and-an-accessible-mobile-menu",
+      "title": "Add a top navigation header (with company name/logo) that links to page sections (e.g., Overview, Services, Team, Contact) and supports smooth scrolling and an accessible mobile menu.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-services-section-that-describes-in-english-the-company-s-work-areas-piling-breeze-making-and-general-construction-each-presented-as-a-service-card-with-a-short-description-and-a-relevant-icon-illustration",
+      "title": "Implement a Services section that describes, in English, the company’s work areas: piling, breeze making, and general construction, each presented as a service card with a short description and a relevant icon/illustration.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-detailed-team-roles-section-that-presents-role-specific-details-for-contractors-engineers-accountants-surveyors-supervisors-head-worker-and-labours-each-role-must-have-a-dedicated-card-accordion-including-responsibilities-bulleted-typical-tasks-bulleted-and-how-the-role-supports-construction-project-delivery-short-paragraph",
+      "title": "Implement a detailed Team/Roles section that presents role-specific details for: contractors, engineers, accountants, surveyors, supervisors, head worker, and labours. Each role must have a dedicated card/accordion including: responsibilities (bulleted), typical tasks (bulleted), and how the role supports construction project delivery (short paragraph).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-contact-section-with-a-simple-contact-form-name-phone-email-message-that-validates-required-fields-on-the-client-and-displays-a-confirmation-message-on-successful-submit-no-external-email-sms-integration",
+      "title": "Add a Contact section with a simple contact form (name, phone/email, message) that validates required fields on the client and displays a confirmation message on successful submit (no external email/SMS integration).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-establish-a-coherent-visual-theme-suitable-for-a-construction-company-colors-typography-spacing-and-component-styling-and-apply-it-consistently-across-all-sections-avoid-blue-purple-as-the-primary-palette",
+      "title": "Establish a coherent visual theme suitable for a construction company (colors, typography, spacing, and component styling) and apply it consistently across all sections. Avoid blue & purple as the primary palette.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-include-static-brand-hero-service-imagery-and-render-them-from-the-frontend-static-assets-folder-do-not-serve-images-via-the-backend",
+      "title": "Generate and include static brand/hero/service imagery and render them from the frontend static assets folder (do not serve images via the backend).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-frontend-src-sections-contactsection-tsx-so-the-service-area-text-states-that-services-are-available-all-over-india-and-the-phone-block-displays-the-two-provided-contact-numbers",
+      "title": "Update the Contact section (frontend/src/sections/ContactSection.tsx) so the Service Area text states that services are available all over India, and the Phone block displays the two provided contact numbers.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-new-founder-owner-block-at-the-top-of-the-existing-team-section-section-id-team-that-displays-the-owner-s-photo-and-the-name-nizamuddin-khan-above-the-existing-team-roles-accordion",
+      "title": "Add a new “Founder & Owner” block at the top of the existing Team section (section id: \"team\") that displays the owner’s photo and the name “NIZAMUDDIN KHAN” above the existing Team roles accordion.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-uploaded-owner-photo-to-the-frontend-as-a-static-asset-served-from-the-frontend-not-the-backend-and-use-it-in-the-founder-owner-block-with-appropriate-accessible-alt-text",
+      "title": "Add the uploaded owner photo to the frontend as a static asset (served from the frontend, not the backend) and use it in the “Founder & Owner” block with appropriate accessible alt text.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-founder-owner-block-styling-matches-the-site-s-existing-construction-company-visual-theme-typography-spacing-card-border-background-treatment-and-does-not-introduce-blue-purple-as-the-primary-palette",
+      "title": "Ensure the Founder & Owner block styling matches the site’s existing construction-company visual theme (typography, spacing, card/border/background treatment) and does not introduce blue/purple as the primary palette.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-frontend-src-sections-contactsection-tsx-to-display-the-gmail-contact-email-address-anashkhan2426-gmail-com-in-the-email-block-in-english-ideally-as-a-clickable-mailto-link-while-keeping-existing-styling-and-layout-consistent-with-the-site-theme",
+      "title": "Update the Contact section (frontend/src/sections/ContactSection.tsx) to display the Gmail contact email address \"anashkhan2426@gmail.com\" in the Email block (in English), ideally as a clickable mailto link while keeping existing styling and layout consistent with the site theme.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-current-founder-owner-images-used-by-frontend-src-components-site-founderownerblock-tsx-with-the-newly-uploaded-owner-photo-by-adding-newly-prepared-static-image-assets-and-updating-the-image-src-paths-to-use-them-keep-the-alt-text-accessible-and-in-english-and-preserve-the-existing-styling-layout-for-desktop-and-mobile-variants",
+      "title": "Replace the current Founder & Owner images used by frontend/src/components/site/FounderOwnerBlock.tsx with the newly uploaded owner photo, by adding newly prepared static image assets and updating the image src paths to use them. Keep the alt text accessible and in English, and preserve the existing styling/layout for desktop and mobile variants.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-use-the-newly-uploaded-image-file-b9880e96-bf00-4325-a5a7-c90172acf09d-15-png-as-the-founder-owner-photo-by-adding-it-as-static-frontend-assets-and-updating-the-founderownerblock-to-reference-the-new-assets-keeping-all-user-facing-text-in-english-and-preserving-the-existing-layout-styling-for-desktop-and-mobile",
+      "title": "Use the newly uploaded image file (B9880E96-BF00-4325-A5A7-C90172ACF09D-15.png) as the Founder & Owner photo by adding it as static frontend assets and updating the FounderOwnerBlock to reference the new assets (keeping all user-facing text in English and preserving the existing layout/styling for desktop and mobile).",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-founder-owner-block-frontend-src-components-site-founderownerblock-tsx-to-remove-the-founder-owner-photo-so-that-no-portrait-avatar-image-is-displayed-on-any-breakpoint-while-keeping-the-rest-of-the-founder-owner-content-headings-name-nizamuddin-khan-role-label-and-biography-text-and-overall-styling-consistent-with-the-existing-site-theme",
+      "title": "Update the Founder & Owner block (frontend/src/components/site/FounderOwnerBlock.tsx) to remove the founder/owner photo so that no portrait/avatar image is displayed on any breakpoint, while keeping the rest of the Founder & Owner content (headings, name “NIZAMUDDIN KHAN”, role label, and biography text) and overall styling consistent with the existing site theme.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-founder-owner-block-component-frontend-src-components-site-founderownerblock-tsx-to-display-the-uploaded-founder-owner-photo-along-with-the-existing-founder-owner-content-keeping-all-user-facing-text-in-english-and-preserving-the-existing-construction-themed-styling-no-new-blue-purple-primary-palette",
+      "title": "Update the Founder & Owner block component (frontend/src/components/site/FounderOwnerBlock.tsx) to display the uploaded founder/owner photo along with the existing Founder & Owner content, keeping all user-facing text in English and preserving the existing construction-themed styling (no new blue/purple primary palette).",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-uploaded-image-file-b9880e96-bf00-4325-a5a7-c90172acf09d-16-png-to-the-frontend-as-a-static-asset-served-from-the-frontend-not-the-backend-under-a-stable-public-path-e-g-frontend-public-assets-and-update-the-founder-owner-block-frontend-src-components-site-founderownerblock-tsx-to-display-this-new-photo-for-the-founder-owner",
+      "title": "Add the uploaded image file \"B9880E96-BF00-4325-A5A7-C90172ACF09D-16.png\" to the frontend as a static asset (served from the frontend, not the backend) under a stable public path (e.g., frontend/public/assets/...), and update the Founder & Owner block (frontend/src/components/site/FounderOwnerBlock.tsx) to display this new photo for the founder/owner.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Build company website for AK PILE FOUNDATION highlighting services (piling, breeze making, construction)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add detailed staff/roles section covering contractors, engineers, accountants, surveyors, supervisors, head worker, and labourers",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Update Contact section to state service region is available all over India and include phone numbers +91 9479479078 and +91 79-87249591",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add a “Founder & Owner” area at the top of the Team section featuring the owner photo and name (NIZAMUDDIN KHAN)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Add Gmail contact email anashkhan2426@gmail.com to the Contact section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add a photo for the Founder & Owner section (owner/founder) and display it in the Founder & Owner block",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Add the uploaded image file \"2FC4ADD3-BBE8-4668-A2E9-AFD39AA39D39.jpeg\" to the frontend as a static asset (served from the frontend, not the backend) and reference it from the UI using a stable path under the frontend public assets.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add the provided photo as the Founder & Owner (owner/founder) image in the Founder & Owner section",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "AK PILE FOUNDATION",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
